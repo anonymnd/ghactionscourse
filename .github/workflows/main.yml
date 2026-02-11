@@ -12,7 +12,7 @@ jobs:
         run: echo "welcome to our first github actions worflows!"
 
       - name: checkout repositiry
-        uses: actions/checkout@6.0.2
+        uses: actions/checkout@v6.0.2
 
       - name: list repo files
         run: ls -la 
